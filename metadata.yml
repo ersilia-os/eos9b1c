@@ -1,6 +1,6 @@
 Identifier: eos9b1c
 Slug: molport-similarity
-Status: In progress
+Status: Ready
 Title: Molport Library Similarity
 Description: Retrieves the 100 nearest neighbours of a query molecule in the 
   Molport Screening Compound Database, a set of 5,313,502 purchasable compounds 
@@ -38,6 +38,18 @@ Source Code: https://github.com/ersilia-os/lazy-sim
 License: Non-commercial
 Contributor: arnaucoma24
 Incorporation Date: '2026-10-27'
+Last Packaging Date: '2026-11-02'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9b1c.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos9b1c
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 5445.0
 Environment Size: 588.0
+Image Size: 5964.5
+Computational Performance 1: 32.34
+Computational Performance 2: 25.06
+Computational Performance 3: 54.91
+Computational Performance 4: 397.82
+Computational Performance 5: -1.0
