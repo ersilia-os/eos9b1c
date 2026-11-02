@@ -3,6 +3,7 @@
 Retrieves the 100 nearest neighbours of a query molecule in the Molport Screening Compound Database, a set of 5,313,502 purchasable compounds indexed by Ersilia. Three learned embeddings are searched independently, namely CLAMP for bioactivity, SAND for 3D shape and Mol-JEPA for predicted biological context, and their rankings are fused into one list. Ersilia built the search with LazySim, which indexes each embedding with turbovec 4-bit quantization.
 
 This model was incorporated on 2026-10-27.
+Last packaged on 2026-11-02.
 
 ## Information
 ### Identifiers
@@ -43,12 +44,19 @@ _10 of 100 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9b1c](https://hub.docker.com/r/ersiliaos/eos9b1c)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9b1c.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9b1c.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `5445`
 - **Environment Size (Mb):** `588`
+- **Image Size (Mb):** `5964.5`
 
+**Computational Performance (seconds):**
+- 10 inputs: `32.34`
+- 100 inputs: `54.91`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-sim](https://github.com/ersilia-os/lazy-sim)
