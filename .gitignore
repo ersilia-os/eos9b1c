@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 /data.h5
 
-# Added manually
-model/checkpoints/
+#eosvc managed
+model/checkpoints/*
